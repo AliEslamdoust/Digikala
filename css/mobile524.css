@@ -1,0 +1,19 @@
+@media (max-width: 1280px) {
+    div.menu-container > nav > ul > li:nth-last-of-type(3) {
+      display: none !important;
+    }
+    div.sm-amazing > div.sm-products > div.sm-product:nth-child(3n) {
+      display: none;
+    }
+    div.digi-plus > div.dp-products-container > div.dp-products > a > img {
+        width: 100%;
+    }
+    div.digi-plus > div.dp-products-container > div.dp-products > a:nth-last-child(5),
+    div.digi-plus > div.dp-products-container > div.dp-products > a:nth-last-child(6),
+    div.digi-plus > div.dp-products-container > div.dp-products > a:nth-last-child(7),
+    div.digi-plus > div.dp-products-container > div.dp-products > a:nth-last-child(8),
+    div.digi-plus > div.dp-products-container > div.dp-products > a:nth-last-child(9){
+      display: none;
+    }
+  }
+  
