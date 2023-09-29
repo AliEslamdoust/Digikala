@@ -365,6 +365,10 @@
   div.takhfif > div.t-products > a:nth-child(2n) {
     border-left: none !important;
   }
+  div.takhfif > div.t-products > a:nth-last-child(1),
+  div.takhfif > div.t-products > a:nth-last-child(2){
+    display: none;
+  }
   /* news */
   div.news-container > div.news-heading {
     padding: 1rem 1.25rem 0.25rem 1.25rem;
