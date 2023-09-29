@@ -184,6 +184,7 @@
   div.fresh {
     width: 95%;
     height: auto;
+    background-size: cover;
   }
   div.fresh > a > div.sm-amazing {
     padding: 1rem;
@@ -210,10 +211,7 @@
     width: 100%;
     position: relative;
   }
-  div.sm-amazing > div.sm-products > div.sm-product:nth-child(3n) {
-    display: flex;
-  }
-  div.sm-amazing > div.sm-products > div.sm-product:nth-child(2n) {
+  div.sm-amazing > div.sm-products > div.sm-product:nth-last-child(3) {
     display: none;
   }
   div.sm-amazing > div.sm-products > div.sm-more {

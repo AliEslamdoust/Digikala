@@ -2,7 +2,8 @@
   div.menu-container > nav > ul > li:nth-last-of-type(3) {
     display: none !important;
   }
-  div.sm-amazing > div.sm-products > div.sm-product:nth-child(3n) {
+  div.sm-amazing > div.sm-products > div.sm-product:nth-last-child(1),
+  div.sm-amazing > div.sm-products > div.sm-product:nth-last-child(2){
     display: none;
   }
 }
