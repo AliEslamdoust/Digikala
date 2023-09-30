@@ -1054,6 +1054,7 @@ div.category-container > a > img {
 }
 div.category-container > a > span {
   font-size: 12px;
+  text-align: center;
   color: var(--dark-text);
 }
 /* two heading images */
@@ -1108,6 +1109,7 @@ div.suggestion > div.suggests-container > a > div > img {
 }
 div.suggestion > div.suggests-container > a > span {
   color: var(--dark-text);
+  text-align: center;
   margin-top: 8px;
   font-size: 14px;
 }
